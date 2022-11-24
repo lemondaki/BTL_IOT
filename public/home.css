@@ -1,0 +1,81 @@
+.bg-gradientblue {
+    background: linear-gradient(to right, #53A6D8,
+            #88CDF6);
+}
+
+.bg-gradientpurple {
+    background: linear-gradient(to right, #7FACD6,
+            #BFB8DA)
+}
+.bg-notice {
+    background: blue;
+}
+
+.bg-gradientred {
+    background: linear-gradient(to right, #FE676E,
+            #FD8F52);
+}
+
+.light__off {
+    max-width: 50px;
+    max-width: 50px;
+}
+
+#chart {
+    /* background-color: #7FACD6; */
+    max-height: 700px;
+}
+
+.buttonToggle {
+    background-color: #ccc;
+    width: 56px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.2);
+    margin: 4px 0;
+}
+
+.circleBtn {
+    margin: 0 1px;
+    background-color: #fff;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+}
+
+.statusBtn {
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.box-chart {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 0.8s ease;
+    height: 100%;
+}
+
+#myChart {
+    width: 100%;
+    max-width: 100%;
+    background-color: #ccc;
+}
+
+.block {
+    border: 10px solid white;
+    padding: 4rem 0;
+}
+
+.newborder {
+    border: 10px solid white;
+}
+
+@media (max-width: 750px) {
+    .block-chart {
+        max-height: 370px;
+    }
+}
